@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "DCS-BannerSlider",
+    "id": "b890fffc-18ce-4944-93fd-9946e04edd26",
+    "version": "1.0.0.2",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "A SharePoint Framework solution for creating a dynamic and customizable banner slider."
+      },
+      "longDescription": {
+        "default": "A customizable banner slider web part for displaying dynamic content and images in an engaging carousel format."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "dcs-banner-slider Feature",
+        "description": "The feature that activates elements of the dcs-banner-slider solution.",
+        "id": "9ad23118-da10-4e06-83d0-649180514547",
+        "version": "1.0.0.2"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/DCS-BannerSlider.sppkg"
+  }
+}
